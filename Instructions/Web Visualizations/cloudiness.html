@@ -1,0 +1,79 @@
+<DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Visualization Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://bootswatch.com/4/cerulean/bootstrap.css">
+    <link rel="stylesheet" href="https://bootswatch.com/_assets/css/custom.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Weather Visualizations</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="../index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../data.html">Data</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../comparison.html">Comparisons</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Visualizations</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="wind.html">Wind</a>
+                <a class="dropdown-item" href="temperature.html">Temperature</a>
+               
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container">
+          <section class="row">
+              <div class="col-md-8">
+                  <article class="description-content">
+                      <h1 class="description-header">Cloudiness
+
+                      </h1>
+                      <hr class="description-hr">
+                      <img src="../Assets/images/Fig3.png" class="img-responsive">
+                      <p>This is an image about cloudiness</p>
+                  </article>
+              </div>
+              <div class="col-md-4">
+                  <section id="imageNav-area">
+                      <div class="imageNav-content">
+                          <h2 class="imageNav-header">Visualizations</h2>
+                          <hr>
+                          <div id="images">
+                              <a href="cloudiness.html">Cloudiness</a><br>
+                              <a href="temperature.html">Temperature</a><br>
+                              <a href="wind.html">Wind</a><br>
+                              <a href="humidity.html">Humidity</a>
+                          </div>
+                      </div>
+                  </section>
+              </div>
+          </section>
+      </div>
+    <script src="https://bootswatch.com/_vendor/jquery/dist/jquery.min.js"></script>
+    <script src="https://bootswatch.com/_assets/js/custom.js"></script>
+    <script src="https://bootswatch.com/_vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
